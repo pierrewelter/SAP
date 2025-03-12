@@ -1,0 +1,56 @@
+.titulo {
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+    padding: 0;
+}
+
+.amarela {
+    background: repeating-linear-gradient(
+        90deg,
+        #ffc400,
+        #ffc400 10px,
+        #FFE13A 10px,
+        #FFE13A 20px
+        );
+            padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pipi {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;   
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:#dddddd;
+}
+
+.sem, .segundo, .terceiro {
+    color: gray;
+}
+
+.negrito {
+    font-weight: bold;
+}
