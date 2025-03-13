@@ -54,3 +54,12 @@ tr:nth-child(even) {
 .negrito {
     font-weight: bold;
 }
+
+.linha {
+    background-color: blue;
+    padding: 2px;
+}
+
+.tres {
+    font-size: 25px;
+}
